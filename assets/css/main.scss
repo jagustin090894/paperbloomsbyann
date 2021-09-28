@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+form {
+    margin-bottom: 30px;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.fonts {
+    li {
+        width: auto;
+        min-width: 35%;
+    }
+}
+
+.view-list.row {
+    flex-direction: column;
+
+    > * {
+        width: 100%;
+    }
+}
+
+.view {
+    .btn {
+        &.disabled {
+            color: #fff;
+            background-color: #6c757d;
+            border-color: #6c757d;
+            cursor: no-drop;
+        }
+    }
+}
+
+.font {
+    font-size: 60px;
+}
+
+.font-1 {
+    font-family: "Outside";
+    font-size: 68px;
+
+    + .name {
+        display: block;
+    }
+}
+
+.font-2 {
+    font-family: "Butterfly";
+}
+
+.font-3 {
+    font-family: "Hiloves";
+    font-size: 75px;
+}
+.font-4 {
+    font-family: "Marchila";
+    padding-top: 20px;
+}
+
+.font-5 {
+    font-family: "Chasy";
+}
+
+.font-6 {
+    font-family: "Snowball";
+}
+
+.font-7 {
+    font-family: "Goldie Rainbow";
+    font-size: 100px;
+}
+
+.font-8 {
+    font-family: "Dahlia";
+    font-size: 81px;
+}
+
+.font-9 {
+    font-family: "Mermaid Stories";
+    font-size: 77px;
+}
+
+.font-10 {
+    font-family: "Muthiara -Demo Version-";
+}

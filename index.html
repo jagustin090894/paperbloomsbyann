@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Generator | Paper Blooms by Ann</title>
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+        <link rel="stylesheet" href="./assets/css/main.css" />
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1 class="title">Text Generator</h1>
+            <form autocomplete="off">
+                <div class="row g-2 align-items-center">
+                    <div class="col-3">
+                        <input type="text" class="form-control" placeholder="Type your text here.." aria-label="users text" id="userText" />
+                    </div>
+
+                    <div class="col-auto">
+                        <button class="btn btn-primary" type="submit"> Submit </button>
+                    </div>
+
+                    <div class="col-auto">
+                        <select class="form-select" aria-label="font colors" id="fontColor">
+                            <option value="000" selected>Choose your color..</option>
+                            <option value="3b3e81"> Royal </option>
+                            <option value="0373bd"> Marine </option>
+                            <option value="0192cb"> Sky </option>
+                            <option value="7ed8fa"> Light Blue </option>
+                            <option value="347d52"> Emerald </option>
+                            <option value="87b84d"> Fluoro Green </option>
+
+                            <option value="cd1f9a"> Lipstick </option>
+                            <option value="d7479f"> Fluoro Pink </option>
+                            <option value="dd63a0"> Fuschia </option>
+                            <option value="fcabd4"> Light Pink </option>
+                            <option value="d7ad23"> Sunshine </option>
+                            <option value="e8d032"> Lemon </option>
+
+                            <option value="624ab8"> Violet </option>
+                            <option value="8743b0"> Lilac </option>
+                            <option value="c1b0f6"> Lavender </option>
+                            <option value="984f3e"> Brown </option>
+                            <option value="c6303b"> Red </option>
+                            <option value="ef792f"> Orange </option>   
+                            
+                            <option value="a78d39"> Gold </option>                         
+
+                        </select>
+                    </div>
+                    <div class="col-auto">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" value="" id="fontNames" />
+                            <label for="fontNames" class="form-check-label"> Hide/Show font names </label>
+                        </div>
+                    </div>
+                    
+                    <div class="col-auto align-self-end view">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check btn-grid " name="btnradio" id="btnGrid" autocomplete="off" checked>
+                            <label class="btn btn-primary disabled" for="btnradio1"><i class="bi bi-grid-fill"></i></label>
+                            <input type="radio" class="btn-check btn-list " name="btnradio" id="btnView" autocomplete="off" >
+                            <label class="btn btn-primary" for="btnradio2"><i class="bi bi-list-ul"></i></label>
+                        </div>                    
+                    </div>
+
+                </div>
+            </form>
+
+            <ul class="row fonts">
+                <li class="col-auto">
+                    <p class="font font-1">Sample text</p>
+                    <small class="name">Outside</small>
+                </li>
+                <li class="col-auto">
+                    <p class="font font-2">Sample text</p>
+                    <small class="name">Butterfly</small>
+                </li>
+
+                <li class="col-auto">
+                    <p class="font font-3">Sample text</p>
+                    <small class="name">Hiloves</small>
+                </li>
+                <li class="col-auto">
+                    <p class="font font-4">Sample text</p>
+                    <small class="name">Marchila</small>
+                </li>
+
+                <li class="col-auto">
+                    <p class="font font-5">Sample text</p>
+                    <small class="name">Chasy</small>
+                </li>
+                <li class="col-auto">
+                    <p class="font font-6">Sample text</p>
+                    <small class="name">Snowball</small>
+                </li>
+
+                <li class="col-auto">
+                    <p class="font font-7">Sample text</p>
+                    <small class="name">Goldie Rainbow</small>
+                </li>
+                <li class="col-auto">
+                    <p class="font font-8">Sample text</p>
+                    <small class="name">Dahlia</small>
+                </li>
+
+                <li class="col-auto">
+                    <p class="font font-9">Sample text</p>
+                    <small class="name">Mermaid Stories</small>
+                </li>
+                <li class="col-auto">
+                    <p class="font font-10">Sample text</p>
+                    <small class="name">Muthiara -Demo Version-</small>
+                </li>
+            </ul>
+        </div>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
